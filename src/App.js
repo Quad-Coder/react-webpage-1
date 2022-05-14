@@ -1,8 +1,10 @@
 import React from "react";
-import Navbar from "./components/Navbar";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
-
+import Navbar from "./components/Navbar";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Home from "./pages/Home";
+import Photography from "./pages/Photography";
+import Projects from "./pages/Projects";
 
 function App() {
   return (
@@ -10,10 +12,9 @@ function App() {
       <Router>
         <Navbar />
         <Routes>
-          <Route path="/welcome" exact  component={Home} />
-          <Route path="/about" component={About} />
-          <Route path="/projects" component={Projects} />
+          <Route path="/" exact component={Home} />
           <Route path="/photography" component={Photography} />
+          <Route path="/projects" component={Projects} />
         </Routes>
       </Router>
     </>
