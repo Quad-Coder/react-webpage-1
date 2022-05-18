@@ -1,31 +1,51 @@
-import ATopTheGreenery from "../ATopTheGreenery";
+import ATopTheGreenery from "images";
+import Boulders from "./images";
+import Doggos from "./images";
+import HindLegs from "./images";
+import IAmTheView from "./images";
+import ItsAllInTheDetails from "./images";
+import LakeTahoeArrival from "./images";
+import NaturallyCarbinated from "./images";
+import PDInDirt from "./images";
+import PDOnRock from "./images";
+import SmallYetFierce from "./images";
+import ViewBreak from "./images";
 
 export const SliderData = [
   {
-    image: "ATopTheGreenery",
+    image: ATopTheGreenery,
   },
   {
-    image: "",
+    image: Boulders,
   },
   {
-    image: "",
+    image: Doggos,
   },
   {
-    image: "",
+    image: HindLegs,
   },
   {
-    image: "",
+    image: IAmTheView,
   },
   {
-    image: "",
+    image: ItsAllInTheDetails,
   },
   {
-    image: "",
+    image: LakeTahoeArrival,
   },
   {
-    image: "",
+    image: NaturallyCarbinated,
   },
   {
-    image: "",
+    image: PDInDirt,
+  },
+  {
+    image: PDOnRock,
+  },
+  {
+    image: SmallYetFierce,
+  },
+  {
+    image: ViewBreak,
   },
 ];
