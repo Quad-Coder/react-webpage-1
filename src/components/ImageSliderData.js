@@ -1,4 +1,4 @@
-import ATopTheGreenery from "images";
+import ATopTheGreenery from "./images";
 import Boulders from "./images";
 import Doggos from "./images";
 import HindLegs from "./images";
