@@ -5,7 +5,7 @@ import { SliderData } from "../components/ImageSliderData";
 function Photography() {
   return (
     <div className="Photography">
-      <h1>Just Some Photos Of Mine</h1>
+      <h1 style={{ color: '#bfc0c0'}}>Just Some Photos Of Mine</h1>
       <ImageSlider slides={SliderData} />
     </div>
   );
