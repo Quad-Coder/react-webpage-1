@@ -5,7 +5,7 @@ function Home() {
   return (
     <div className="home">
       <div className="Introduction">
-        <h3 style={{ color: "#bfc0c0" }}>
+        <h3 className="Intro" style={{ color: "#bfc0c0" }}>
           Hey! My name is Quadrick Reeder and I am you next Software Engineer.
         </h3>
         <img src={ProPic} alt="Self Portrait" />

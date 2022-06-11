@@ -18,6 +18,11 @@
     background-color: #000000;
 }
 
-.home {
+.Introduction {
     display: flex;
+    justify-content: space-around;
+}
+
+.Intro {
+    text-align: left;
 }
