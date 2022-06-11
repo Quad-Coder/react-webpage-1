@@ -20,9 +20,47 @@
 
 .Introduction {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    row-gap: 30px;
 }
 
 .Intro {
+    display: flex;
+    justify-content: space-evenly;
     text-align: left;
+    align-items: center;
+}
+
+.proPic {
+    width: 20%;
+    border-width: 400;
+    border-radius: 400 / 2;
+}
+
+.Interest {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+}
+
+.codeSymbol {
+    width:20%
+}
+
+.Thinkful {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+}
+
+.thinkfulLogo {
+    width: 20%;
+}
+
+.footer {
+    background-color:#6a040f;
+    border-color: #6a040f;
+    border-radius: 5px;
 }
