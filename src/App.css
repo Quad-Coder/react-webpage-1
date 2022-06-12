@@ -68,8 +68,11 @@
     padding-right: 10px;
 }
 
-.projectTitle {
-    text-align: center;
+.Projects{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .footer {

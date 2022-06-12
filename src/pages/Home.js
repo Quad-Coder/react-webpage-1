@@ -2,11 +2,14 @@ import React from "react";
 import ProPic from "../components/images/ProPic.JPG";
 import CodeSymbol from "../components/images/CodeSymbol.JPG";
 import ThinkfulLogo from "../components/images/ThinkfulLogo.JPG";
+import MongoDB from "../components/images/MongoDB.JPG";
+import Express from "../components/images/ExpressjsL.JPG";
+import ReactLogo from "../components/images/ReactLogo.JPG";
+import Nodejs from "../components/images/Nodejs.JPG";
 
 function Home() {
   return (
     <div className="home" style={{ background: "#212529" }}>
-    
       <div className="Introduction">
         <h3 className="Intro" style={{ color: "#bfc0c0" }}>
           Hey! My name is Quadrick Reeder and I am you next Software Engineer.
@@ -33,9 +36,9 @@ function Home() {
       <div className="Thinkful">
         <p style={{ color: "#bfc0c0" }}>
           In 2021 I attended Thinkful's Software Engineering Immersion Program.
-          It was there at the 6 month program that I learned industry standards using the JavaScript
-          language different tools such as CSS, HTML, MongoDB, Express, and
-          React.
+          It was there at the 6 month program that I learned industry standards
+          using the JavaScript language different tools such as CSS, HTML,
+          MongoDB, Express, and React.
         </p>
         <img
           className="thinkfulLogo"
@@ -51,13 +54,33 @@ function Home() {
           superb.
         </p>
       </div>
-      <br/>
+      <br />
       <div className="Projects">
-        <div className="pTitles">
-          <img className=""src=""/>
-        <h3 className="projectTitle" style={{ color: "#bfc0c0"}}>Projects</h3>
-        </div>
+        <img
+          className="mongoDBLogo"
+          src={MongoDB}
+          style={{ width: 200, borderRadius: "50%" }}
+        />
+        <img
+          className="expressjs"
+          src={Express}
+          style={{ width: 200, borderRadius: "50%" }}
+        />
+        <h3 className="projectTitle" style={{ color: "#bfc0c0" }}>
+          Projects
+        </h3>
+        <img
+          className="react"
+          src={ReactLogo}
+          style={{ width: 200, borderRadius: "50%" }}
+        />
+        <img
+          className="nodejs"
+          src={Nodejs}
+          style={{ width: 200, borderRadius: "50%" }}
+        />
       </div>
+      <br />
     </div>
   );
 }
