@@ -5,12 +5,19 @@ import ThinkfulLogo from "../components/images/ThinkfulLogo.JPG";
 
 function Home() {
   return (
-    <div className="home">
+    <div className="home" style={{}}>
       <div className="Introduction">
         <h3 className="Intro" style={{ color: "#bfc0c0" }}>
           Hey! My name is Quadrick Reeder and I am you next Software Engineer.
         </h3>
-        <img className="proPic" src={ProPic} />
+        <img
+          className="proPic"
+          src={ProPic}
+          style={{
+            width: 200,
+            borderRadius: "50%",
+          }}
+        />
       </div>
       <div className="Interest">
         <img className="codeSymbol" src={CodeSymbol} />
@@ -30,9 +37,7 @@ function Home() {
         </p>
         <img className="thinkfulLogo" src={ThinkfulLogo} />
       </div>
-      <footer>
-        
-      </footer>
+      <footer></footer>
     </div>
   );
 }
