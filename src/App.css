@@ -55,8 +55,10 @@
 .Thinkful {
     display: flex;
     justify-content: space-evenly;
-    text-align: center;
+    row-gap: 30px;
     align-items: center;
+    flex-direction: row;
+    text-align: center;
 }
 
 .thinkfulLogo {

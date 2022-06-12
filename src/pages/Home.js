@@ -35,7 +35,17 @@ function Home() {
           language different tools such as CSS, HTML, MongoDB, Express, and
           React.
         </p>
-        <img className="thinkfulLogo" src={ThinkfulLogo} />
+        <img
+          className="thinkfulLogo"
+          src={ThinkfulLogo}
+          style={{ width: 200, borderRadius: "50%" }}
+        />
+      </div>
+      <div className="Conclusion">
+        <p style={{ color: "#bfc0c0" }}>
+          Complimenting these newly learned skills is 3+ years of customer
+          service and warehouse experience that made my communications skills superb.
+        </p>
       </div>
       <footer></footer>
     </div>
