@@ -11,7 +11,6 @@
 .about, 
 .projects {
     display: block;
-    height: 90vh;
     align-items: center;
     justify-content: center;
     font-size: 3rem;
@@ -39,6 +38,8 @@
     width: 12%;
     border-width: 400;
     border-radius: 400 / 2;
+    padding-right: 20px;
+    padding-top: 10px;
 }
 
 .Interest {
@@ -49,7 +50,8 @@
 }
 
 .codeSymbol {
-    width:10%
+    width:10%;
+    padding-left: 10px;
 }
 
 .Thinkful {
@@ -63,6 +65,11 @@
 
 .thinkfulLogo {
     width: 10%;
+    padding-right: 10px;
+}
+
+.projectTitle {
+    text-align: center;
 }
 
 .footer {

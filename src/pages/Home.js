@@ -5,7 +5,8 @@ import ThinkfulLogo from "../components/images/ThinkfulLogo.JPG";
 
 function Home() {
   return (
-    <div className="home" style={{}}>
+    <div className="home" style={{ background: "#212529" }}>
+    
       <div className="Introduction">
         <h3 className="Intro" style={{ color: "#bfc0c0" }}>
           Hey! My name is Quadrick Reeder and I am you next Software Engineer.
@@ -28,10 +29,11 @@ function Home() {
           to apply myself.
         </p>
       </div>
+      <br />
       <div className="Thinkful">
         <p style={{ color: "#bfc0c0" }}>
           In 2021 I attended Thinkful's Software Engineering Immersion Program.
-          It was here that I learned industry standards using the JavaScript
+          It was there at the 6 month program that I learned industry standards using the JavaScript
           language different tools such as CSS, HTML, MongoDB, Express, and
           React.
         </p>
@@ -41,13 +43,21 @@ function Home() {
           style={{ width: 200, borderRadius: "50%" }}
         />
       </div>
+      <br />
       <div className="Conclusion">
         <p style={{ color: "#bfc0c0" }}>
           Complimenting these newly learned skills is 3+ years of customer
-          service and warehouse experience that made my communications skills superb.
+          service and warehouse experience that made my communications skills
+          superb.
         </p>
       </div>
-      <footer></footer>
+      <br/>
+      <div className="Projects">
+        <div className="pTitles">
+          <img className=""src=""/>
+        <h3 className="projectTitle" style={{ color: "#bfc0c0"}}>Projects</h3>
+        </div>
+      </div>
     </div>
   );
 }
