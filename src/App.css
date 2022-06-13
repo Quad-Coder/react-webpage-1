@@ -80,3 +80,8 @@
     border-color: #6a040f;
     border-radius: 5px;
 }
+
+.project1{
+    display: flex;
+    align-items: center;
+}

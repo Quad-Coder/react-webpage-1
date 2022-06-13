@@ -6,6 +6,7 @@ import MongoDB from "../components/images/MongoDB.JPG";
 import Express from "../components/images/ExpressjsL.JPG";
 import ReactLogo from "../components/images/ReactLogo.JPG";
 import Nodejs from "../components/images/Nodejs.JPG";
+import WeLoveMovies from "../components/images/WeLoveMovies.JPG";
 
 function Home() {
   return (
@@ -18,7 +19,6 @@ function Home() {
           className="proPic"
           src={ProPic}
           style={{
-            width: 200,
             borderRadius: "50%",
           }}
         />
@@ -81,6 +81,20 @@ function Home() {
         />
       </div>
       <br />
+      <section id="project1">
+        <div className="project1">
+          <a
+            href="https://projectwelovemovies.herokuapp.com/"
+            class="info-img accent-border flex-single deploy-wrap"
+          >
+            <img
+              src={WeLoveMovies}
+              alt="Mock database that stores movies, reviews and theaters in relational databases."
+              style={{ width: "30%" }}
+            />
+          </a>
+        </div>
+      </section>
     </div>
   );
 }
