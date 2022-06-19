@@ -75,13 +75,42 @@
     align-items: center;
 }
 
+section {
+    display: block;
+}
+
+.info-card {
+    display: flex;
+    border-radius: 15px;
+    overflow: hidden;
+    align-items: stretch;
+}
+
+.accent-border {
+    border: #6a040f;
+}
+
+.info-img {
+    justify-content: center;
+}
+
+.deploy-screen .deploy-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.deploy-screen {
+    top: 0;
+    background: #6a040f;
+    visibility: 0;
+    opacity: 0;
+    transition: opacity .3s,visibility .3s,background-color .175s;
+}
+
 .footer {
     background-color:#6a040f;
     border-color: #6a040f;
     border-radius: 5px;
-}
-
-.project1{
-    display: flex;
-    align-items: center;
 }

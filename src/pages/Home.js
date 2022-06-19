@@ -81,8 +81,8 @@ function Home() {
         />
       </div>
       <br />
-      <section id="project1">
-        <div className="project1">
+      <section id="project1" class>
+        <div className="info-card accent-border project1">
           <a
             href="https://projectwelovemovies.herokuapp.com/"
             class="info-img accent-border flex-single deploy-wrap"
@@ -92,6 +92,9 @@ function Home() {
               alt="Mock database that stores movies, reviews and theaters in relational databases."
               style={{ width: "30%" }}
             />
+            <div class="deploy-screen">
+              <div class="deploy-text">View Deployment</div>
+            </div>
           </a>
         </div>
       </section>
